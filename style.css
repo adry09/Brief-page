@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+      -webkit- box-sizing: border-box; /*Chrome & Safari*/
+      -moz- box-sizing: border-box; /*Firefox*/
+      -ms- box-sizing: border-box; /*IE*/
+      -o- box-sizing: border-box; /*Opera*/
+}
+
+.main-container{
+    margin: 0 auto;
+    max-width: 1220px;
+    font-family: 'Arial';
+}
+
+.form-wrapper{
+    border: none;
+}
+
+/*#shape-selection {
+    height: 460px;
+}*/
+
+.asterix{
+    color: red;
+}
+
+.fieldset-legend{
+    font-weight: bold;
+    color: #52A650;
+    font-size: 1.3em;
+}
+
+#shape-selection {
+    height: 505px;
+
+}
+
+#shape-selection, .questions, .questions-total{
+    height: auto;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    border-right: 1px solid #CCC;
+}
+
+.field-type-field-collection {
+    clear: both;
+    overflow: hidden;
+    border: 1px solid #CCC;
+}
+
+.tabledrag-toggle-weight-wrapper{
+    display: none;
+}
+
+.select2-choice {
+    display: none;
+}
+
+.select2-container {
+    margin-top: 20px;
+    line-height: 2.5;
+}
+
+
+.select2-container .select2-offscreen{
+    display: inline-block;
+    width: auto;
+}
+
+.select2-input {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-right: 35px;
+    line-height: 2.5;
+}
+
+
+.select2-container .select2-focusser{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-right: 35px;
+    line-height: 2.5;
+}
+
+
+.use-select-2, .select2-results {
+    display: none;
+}
+
+.description{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.description-shape {
+    display: inline-block;
+    float: right;
+    margin-right: 59px;
+    margin-top: 5px;
+}
+
+
+.form-item {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-text{
+    line-height: 2.5;
+    margin-right: 5px;
+    width: 70%
+}
+
+.description-quantity {
+    display: block;
+    width: 84%;
+    float: right;
+    margin-top: 3px;
+}
+
+.description-quantity-last{
+    display: block;
+    width: 84%;
+    float: right;
+    margin-top: 10px;
+}
+
+#quantity-sizes-ajax .form-item label{
+    display: inline-block;
+    width: 15%;
+}
+
+.field-multiple-drag{
+    display: none;
+}
+
+
+/*Decoration specification*/
+
+table{
+    width: 100%;
+}
+
+/*Logo 1*/
+
+#edit-field-price-by-logo-und-0-title-field--3.form-item label{
+    display: block;
+    width: 100%;   
+    font-weight: bold;
+}
+
+/* Drop down list */
+
+.field-name-field-color, .field-name-field-decoration-area-ref {
+    display: inline-block;
+    float: left;
+    width: 50%;  
+}
+
+.field-name-field-decoration-area-ref, .field-name-field-pmp {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    clear: both;
+}
+
+.field-widget-options-select{
+    padding-right: 55px;
+}
+
+.form-type-select label{
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+}
+
+.form-select{
+    width: 100%;
+    padding: 12px;
+}
+
+
+
+/*Radio buttons area*/
+
+.field-name-field-pmp-surface{
+    display: none;
+}
+
+.form-type-radio, .form-type-radio .option  {
+    display: inline-block;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.form-type-radio:last-of-type {
+    display: inline-block;
+    float: left;
+    width: auto;
+    margin-right: 25px;
+    margin-top: 0;
+}
+
+
+
+
+/*Artwork*/
+
+.field-name-field-artwork-files{
+    display: inline-block;
+    width: 50%;
+}
+
+.description-buttons{
+    float: left;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.form-item label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-details span{
+    display: none;
+}
+
+.form-managed-file input{
+    margin-bottom: 30px;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    background-color: #00A650;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+}
+
+.form-managed-file .form-submit {
+    margin-bottom: 0px;
+}
+
+
+/*Comments*/
+.field-name-field-comments{
+    float: right;
+    width: 50%;
+}
+
+.form-type-textarea label{
+    display: block;
+    width: 100%;
+}
+
+
+.form-textarea{
+    float: right;
+    width: 60%;
+    height: 160px;
+}
+
+.form-managed-file{
+    display: inline-block;
+    float: right;
+}
+
+
+
+
+
+
+/* Button Add another logo*/
+.clearfix{
+    float: right;
+    margin: 25px 4px;
+}
+
+.clearfix .form-submit{
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    background-color: #00A650;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+.field-label{
+    text-align: left;
+    color: #00A650;
+}
+
+.form-item .form-type-item {
+   color: #00A650;
+}
+
+.form-type-select label, .form-type-managed-file label, .form-type-textarea label{
+    font-weight: bolder;
+}
+
+.field-name-field-price-by-logo{
+    border-left: none;
+    border-right: none;
+}
+
+
+/*Question*/
+
+#edit-questions {
+    margin-top: 20px;
+}
+
+#edit-questions legend{
+    margin-bottom: 15px;
+}
+
+.form-item-field-gold-rim-und, .form-item-field-nucleation-und
+{
+    float: left;
+    margin-right: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.form-required{
+    color: red;
+}
+
+#edit-field-gold-rim-und .option:last-of-type{
+    margin-right: 0;
+}
+
+
+
+/*Priceper reference*/
+
+.questions-total {
+    border-right: none;
+}
+
+#edit-total{
+    margin-top: 20px;
+}
+
+#edit-sizes label{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form-type-checkbox label{
+    display: inline-block;
+    font-weight: normal;
+}
+
+
+.request-form-actions .button {
+    float: right;
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    background-color: #00A650;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    margin: 30px 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+input[type=text], .form-textarea{
+    padding-left: 5px;
+}
